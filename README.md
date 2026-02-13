@@ -1,6 +1,6 @@
 # Alireza Shojaei
 
-Machine learning engineer focused on building production-quality ML systems. Projects span NLP, computer vision, speech processing, graph neural networks, and financial ML, each with complete training pipelines, rigorous evaluation, and reproducible experiments.
+Curious mind working on production-quality ML systems. Projects span NLP, computer vision, speech processing, graph neural networks, and financial ML, each with complete training pipelines, rigorous evaluation, and reproducible experiments.
 
 ---
 
