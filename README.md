@@ -1,6 +1,6 @@
 # Alireza Shojaei
 
-AI/ML engineer building production-grade deep learning systems. Focused on novel model architectures, uncertainty quantification, and efficient training strategies.
+Curious mind orking on a range of AI/ML projects including novel model architectures, uncertainty quantification, and efficient training strategies.
 
 ## Selected Projects
 
