@@ -1,6 +1,6 @@
 # Alireza Shojaei
 
-Curious mind orking on a range of AI/ML projects including novel model architectures, uncertainty quantification, and efficient training strategies.
+Curious mind working on a range of AI/ML projects including novel model architectures, uncertainty quantification, and efficient training strategies.
 
 ## Selected Projects
 
