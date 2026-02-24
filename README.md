@@ -60,6 +60,7 @@ Curious mind building production-grade AI/ML systems. Focused on novel model arc
 - **[3dgs-depth-regularized](https://github.com/A-SHOJAEI/3dgs-depth-regularized)** - 3D Gaussian Splatting with depth regularization on Mip-NeRF 360
 - **[adaptive-noise-schedule-diffusion-with-clip-guidance](https://github.com/A-SHOJAEI/adaptive-noise-schedule-diffusion-with-clip-guidance)** - Adaptive noise schedule diffusion with CLIP guidance
 - **[coco-rag-captioning](https://github.com/A-SHOJAEI/coco-rag-captioning)** - Retrieval-augmented image captioning with BLIP and LoRA on COCO
+- **[hierarchical-diffusion-refinement-with-aesthetic-consistency](https://github.com/A-SHOJAEI/hierarchical-diffusion-refinement-with-aesthetic-consistency)** - Multi-stage diffusion with aesthetic consistency loss for coherent multi-resolution generation
 - **[hierarchical-diffusion-rlhf-caption-refinement](https://github.com/A-SHOJAEI/hierarchical-diffusion-rlhf-caption-refinement)** - Hierarchical diffusion with RLHF caption refinement
 - **[hierarchical-diffusion-with-preference-guided-refinement](https://github.com/A-SHOJAEI/hierarchical-diffusion-with-preference-guided-refinement)** - Hierarchical diffusion with preference-guided refinement
 - **[iterative-refinement-text-to-image-with-preference-guided-diffusion](https://github.com/A-SHOJAEI/iterative-refinement-text-to-image-with-preference-guided-diffusion)** - Iterative text-to-image generation with preference-guided diffusion
