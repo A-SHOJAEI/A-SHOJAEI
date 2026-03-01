@@ -167,7 +167,9 @@ Curious mind building production-grade AI/ML systems. Focused on novel model arc
 - **[ucc-librispeech-longform-asr](https://github.com/A-SHOJAEI/ucc-librispeech-longform-asr)** - Unified context carry for long-form ASR on LibriSpeech
 
 ### Systems & RL
-- **[world-models](https://github.com/A-SHOJAEI/world-models)** - World models for robotic control: DreamerV3 (29.5M params, RSSM with categorical latents), action-conditioned video prediction via CogVideoX-5B LoRA fine-tuning (95.2M trainable), and LLM planning with learned world model simulators
+- **[dreamerv3-robotic-control](https://github.com/A-SHOJAEI/dreamerv3-robotic-control)** - DreamerV3 (29.5M params) for robotic control with RSSM world model, categorical latents (32x32), straight-through actor gradients, trained entirely in imagination on DMControl walker-walk
+- **[action-conditioned-video-worldmodel](https://github.com/A-SHOJAEI/action-conditioned-video-worldmodel)** - CogVideoX-5B fine-tuned with LoRA (rank 16) and novel action cross-attention adapter (95.2M trainable) for action-conditioned video prediction
+- **[llm-planning-with-world-models](https://github.com/A-SHOJAEI/llm-planning-with-world-models)** - LLM planning with learned world models: Claude proposes action plans, DreamerV3 RSSM simulates outcomes, value head scores trajectories
 - **[adaptive-inference-router-with-cascade-serving](https://github.com/A-SHOJAEI/adaptive-inference-router-with-cascade-serving)** - Multi-objective RL routing across quantized/pruned model cascades
 - **[adaptive-model-routing-serving-optimizer](https://github.com/A-SHOJAEI/adaptive-model-routing-serving-optimizer)** - Contextual bandit routing across FP32/FP16/INT8/pruned variants with 84.7% memory and 93.8% cost reduction
 - **[adaptive-model-serving-optimizer](https://github.com/A-SHOJAEI/adaptive-model-serving-optimizer)** - UCB bandit-based model serving with latency/accuracy/cost optimization
