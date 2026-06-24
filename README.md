@@ -178,6 +178,29 @@ Curious mind building production-grade AI/ML systems. Focused on novel model arc
 - **[offline-robotic-manipulation-curriculum](https://github.com/A-SHOJAEI/offline-robotic-manipulation-curriculum)** - Offline RL with curriculum learning for robotic manipulation
 - **[temporal-distribution-shift-detector-with-adaptive-ensemble-reweighting](https://github.com/A-SHOJAEI/temporal-distribution-shift-detector-with-adaptive-ensemble-reweighting)** - Bayesian online ensemble reweighting for distribution shift detection
 
+ ### Spacecraft Autonomy, Fault-Tolerant Control & Verified Runtime Assurance
+  *A coordinated research program (AMPLE-GNC) on safe learned spacecraft GNC, each repo pairs a manuscript with full replication code,
+  committed evidence, and a reproducibility manifest.*
+
+  - **[paper-A-reliability-asymmetric](https://github.com/A-SHOJAEI/paper-A-reliability-asymmetric)** - Reliability-asymmetric spacecraft GNC
+  stack: a learned fault-adaptive controller and a language-model commander, bounded by a Kind 2-verified runtime shield, with end-to-end
+  reproducible evidence
+  - **[paper-B-conformal-certificates](https://github.com/A-SHOJAEI/paper-B-conformal-certificates)** - Conformal recovery-deadline
+  certificates for runtime assurance of online-adapting controllers; distribution-free finite-sample coverage, demonstrated on a 6-DOF
+  spacecraft and an inverted pendulum
+  - **[paper-C-ftc-controller-study](https://github.com/A-SHOJAEI/paper-C-ftc-controller-study)** - Honest settled-gate benchmark of learned
+  vs classical spacecraft fault-tolerant control; a disturbance observer takes the additive-bias fault class from 0% to 59.4% with no
+  SIGN/GAIN regression
+  - **[paper-D-assurance-transfer](https://github.com/A-SHOJAEI/paper-D-assurance-transfer)** - "Assurance transfers, skill does not":
+  re-certification cost of a verified runtime-assurance layer across spacecraft regimes (conformal certificate at 0 LOC changed, Kind 2 shield
+  at 96% proof-form reuse)
+  - **[paper-E-flight-hil](https://github.com/A-SHOJAEI/paper-E-flight-hil)** - Flight-class processor-in-the-loop validation on a Raspberry
+  Pi 5 (24.5 µs control cycle, ~4000x under the 10 Hz budget; verified shield at 0.02% overhead) plus a high-fidelity fault campaign
+  - **[paper-F-settled-gate-benchmark](https://github.com/A-SHOJAEI/paper-F-settled-gate-benchmark)** - The settled-gate spacecraft
+  fault-tolerant-control benchmark: a reproducible evaluation protocol and leaderboard for comparable learned and classical FTC
+  - **[paper-G-regime-ladder](https://github.com/A-SHOJAEI/paper-G-regime-ladder)** - Measuring skill vs assurance transfer cost across a
+  six-rung spacecraft mission profile: assurance is regime-portable (~0 LOC), while skill is rebuilt only at actuator-family boundaries
+
 ## Tech Stack
 
 **Frameworks**: PyTorch, HuggingFace Transformers, PyTorch Geometric, DGL, scikit-learn, XGBoost, LightGBM, FAISS, N-BEATS, PatchTST, TFT
