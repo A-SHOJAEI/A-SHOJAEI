@@ -16,6 +16,12 @@ Curious mind building production-grade AI/ML systems. Focused on novel model arc
 - **[llm-planning-with-world-models](https://github.com/A-SHOJAEI/llm-planning-with-world-models)** - LLM planning with learned world models: Claude proposes action plans, DreamerV3 RSSM simulates outcomes, value head scores trajectories
 - **[offline-robotic-manipulation-curriculum](https://github.com/A-SHOJAEI/offline-robotic-manipulation-curriculum)** - Offline RL with curriculum learning for robotic manipulation
 
+### Agentic AI
+- **[ConstructAI-oss](https://github.com/A-SHOJAEI/ConstructAI-oss)** - AI-powered construction management platform driven by 11 coordinated agents, a local-first LLM gateway (vLLM + Ollama), construction-specialized RAG, and YOLOv8 + ViT computer vision
+- **[llm-planning-with-world-models](https://github.com/A-SHOJAEI/llm-planning-with-world-models)** - LLM planning with learned world models: Claude proposes action plans, DreamerV3 RSSM simulates outcomes, value head scores trajectories
+- **[Throughline](https://github.com/A-SHOJAEI/Throughline)** - AI construction scheduling and project-controls platform: a deterministic CPM/DCMA/EVM engine with an LLM copilot layered around it as decision-support
+- **[chw-companion](https://github.com/A-SHOJAEI/chw-companion)** - Offline multimodal maternal-health triage with Gemma 4, emitting structured on-device triage decisions (record_vitals, flag_danger_sign, recommend_action, schedule_followup) in a single forward pass
+
 ### LLM Inference & Efficient Fine-Tuning
 - **[adaptive-contrastive-curriculum-for-multitask-knowledge-transfer](https://github.com/A-SHOJAEI/adaptive-contrastive-curriculum-for-multitask-knowledge-transfer)** - Multi-task learning with adaptive curriculum and contrastive loss on MMLU
 - **[adaptive-curriculum-learning-for-domain-transfer-in-llm-evaluation](https://github.com/A-SHOJAEI/adaptive-curriculum-learning-for-domain-transfer-in-llm-evaluation)** - Curriculum learning for LLM domain transfer on MMLU
