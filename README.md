@@ -101,16 +101,23 @@ Curious mind building production-grade AI/ML systems. Focused on novel model arc
 - **[coco-detr-lora](https://github.com/A-SHOJAEI/coco-detr-lora)** - LoRA-adapted DETR for object detection on COCO
 - **[coco-tailcal-detr](https://github.com/A-SHOJAEI/coco-tailcal-detr)** - Tail-class calibrated DETR on COCO
 - **[coco-uncertainty-selftrain](https://github.com/A-SHOJAEI/coco-uncertainty-selftrain)** - Uncertainty-guided self-training on COCO
+- **[dacl10k-bridge-defect](https://github.com/A-SHOJAEI/dacl10k-bridge-defect)** - 3-model UPerNet ensemble (DINOv3-L + EVA-02-L + ConvNeXt-L) for multi-label bridge-defect segmentation on dacl10k. val mIoU 0.476, +0.062 over the baseline (winning 17/18 classes)
 - **[densenet-multilabel-chest-xray-pathology-detection](https://github.com/A-SHOJAEI/densenet-multilabel-chest-xray-pathology-detection)** - DenseNet-121 multi-label chest X-ray pathology detection on NIH ChestX-ray14
 - **[hierarchical-attention-fusion-urban-scene-parsing](https://github.com/A-SHOJAEI/hierarchical-attention-fusion-urban-scene-parsing)** - Hierarchical attention fusion for urban scene parsing
 - **[pet-breed-uncertainty-aware-classifier](https://github.com/A-SHOJAEI/pet-breed-uncertainty-aware-classifier)** - EfficientNet-B0 with MC Dropout uncertainty on Oxford-IIIT Pet (7,393 images)
 - **[progressive-uncertainty-aware-pretraining-medical-xray](https://github.com/A-SHOJAEI/progressive-uncertainty-aware-pretraining-medical-xray)** - Progressive uncertainty-aware pretraining for medical X-ray classification
 - **[rf-detr-detection](https://github.com/A-SHOJAEI/rf-detr-detection)** - RF-DETR real-time object detection: 56.4 AP on COCO val2017 at 163 FPS
+- **[s2ds-defect-segmentation](https://github.com/A-SHOJAEI/s2ds-defect-segmentation)** - DINOv3-L/16 fine-tuned for structural-defect segmentation on S2DS (7 classes). test mIoU 0.844, +18 mIoU over the dataset paper baseline and the best of a 16-method benchmark
 - **[tailforge-lvis-ovseg](https://github.com/A-SHOJAEI/tailforge-lvis-ovseg)** - Frequency-aware open-vocabulary segmentation with logit adjustment on LVIS
 - **[uncertainty-aware-chexpert-diagnosis](https://github.com/A-SHOJAEI/uncertainty-aware-chexpert-diagnosis)** - Uncertainty-aware diagnosis on CheXpert chest X-rays
 - **[uncertainty-aware-hierarchical-medical-diagnosis-with-credal-sets](https://github.com/A-SHOJAEI/uncertainty-aware-hierarchical-medical-diagnosis-with-credal-sets)** - Hierarchical medical diagnosis with credal set uncertainty
 - **[urban-occlusion-aware-depth-estimation](https://github.com/A-SHOJAEI/urban-occlusion-aware-depth-estimation)** - Occlusion-aware monocular depth estimation for urban scenes
 - **[urban-occlusion-aware-segmentation](https://github.com/A-SHOJAEI/urban-occlusion-aware-segmentation)** - Occlusion-aware urban segmentation with SegFormer + DeepLabV3+ ensemble
+
+### 3D & LiDAR Perception
+- **[rohbau3d-benchmark](https://github.com/A-SHOJAEI/rohbau3d-benchmark)** - First published semantic-segmentation benchmark on Rohbau3D — 504 terrestrial-LiDAR shell-construction scans (18 classes); Concerto-large (PT-v3m2) anchor at 0.584 mIoU
+- **[scannetpp-dinov3](https://github.com/A-SHOJAEI/scannetpp-dinov3)** - DINOv3-injected-into-3D semantic segmentation: frozen DINOv3 ViT-L features injected at every decoder block of a Point-Transformer-V3 backbone on ScanNet++ (0.514 mIoU, near-SOTA)
+- **[slabim-scan-to-bim](https://github.com/A-SHOJAEI/slabim-scan-to-bim)** - Concerto-large (PT-v3m2) point-transformer fine-tuned for scan-to-BIM semantics (wall/floor/door/column) on SLABIM, beating FM-Fusion 82.5 vs 58.3 mIoU
 
 ### Molecular ML & Graph Networks
 - **[adaptive-spectral-attention-heterogeneous-molecular-property-prediction](https://github.com/A-SHOJAEI/adaptive-spectral-attention-heterogeneous-molecular-property-prediction)** - Spectral attention for heterogeneous molecular property prediction
