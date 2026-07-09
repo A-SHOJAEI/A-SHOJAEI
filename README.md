@@ -4,6 +4,18 @@ Curious mind building production-grade AI/ML systems. Focused on novel model arc
 
 ## Selected Projects
 
+### Robotics & Embodied AI
+- **[body-blind-action-interface](https://github.com/A-SHOJAEI/body-blind-action-interface)** - Body-blind action interface that deletes embodiment information from the action space for zero-shot transfer across robot arms
+- **[cross-embodiment-transfer-benchmark](https://github.com/A-SHOJAEI/cross-embodiment-transfer-benchmark)** - Benchmark and analysis showing morphological similarity and data diversity do not govern cross-embodiment transfer
+- **[cross-embodiment-measurement-standard](https://github.com/A-SHOJAEI/cross-embodiment-measurement-standard)** - Enforced measurement standard and toolkit for evaluating cross-embodiment transfer claims
+- **[symbolic-interface-transfer](https://github.com/A-SHOJAEI/symbolic-interface-transfer)** - Morphology-invariant symbolic interface for multi-step cross-embodiment policy transfer
+- **[sufficiency-invariance-bound](https://github.com/A-SHOJAEI/sufficiency-invariance-bound)** - Theory and measurements for the sufficiency-invariance bound on shared robot control representations
+- **[mjx-crossmorph-locomotion](https://github.com/A-SHOJAEI/mjx-crossmorph-locomotion)** - GPU-batched MuJoCo MJX pipeline for training and transferring joint-space quadruped locomotion across morphologies, built from scratch
+- **[dreamerv3-robotic-control](https://github.com/A-SHOJAEI/dreamerv3-robotic-control)** - DreamerV3 (29.5M params) for robotic control with RSSM world model, categorical latents (32x32), straight-through actor gradients, trained entirely in imagination on DMControl walker-walk
+- **[action-conditioned-video-worldmodel](https://github.com/A-SHOJAEI/action-conditioned-video-worldmodel)** - CogVideoX-5B fine-tuned with LoRA (rank 16) and novel action cross-attention adapter (95.2M trainable) for action-conditioned video prediction
+- **[llm-planning-with-world-models](https://github.com/A-SHOJAEI/llm-planning-with-world-models)** - LLM planning with learned world models: Claude proposes action plans, DreamerV3 RSSM simulates outcomes, value head scores trajectories
+- **[offline-robotic-manipulation-curriculum](https://github.com/A-SHOJAEI/offline-robotic-manipulation-curriculum)** - Offline RL with curriculum learning for robotic manipulation
+
 ### LLM Inference & Efficient Fine-Tuning
 - **[adaptive-contrastive-curriculum-for-multitask-knowledge-transfer](https://github.com/A-SHOJAEI/adaptive-contrastive-curriculum-for-multitask-knowledge-transfer)** - Multi-task learning with adaptive curriculum and contrastive loss on MMLU
 - **[adaptive-curriculum-learning-for-domain-transfer-in-llm-evaluation](https://github.com/A-SHOJAEI/adaptive-curriculum-learning-for-domain-transfer-in-llm-evaluation)** - Curriculum learning for LLM domain transfer on MMLU
